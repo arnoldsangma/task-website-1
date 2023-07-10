@@ -46,7 +46,6 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 .work-history-title {
   font-size: 40px;
@@ -59,7 +58,6 @@ button {
   font-weight: 400;
   color: #444343;
   margin-bottom: 16px;
-
 }
 .checkmark {
   list-style: none;
@@ -74,15 +72,70 @@ button {
   height: 527.929px;
   border-radius: 350px;
   position: absolute;
-  top: 195px ;
+  top: 195px;
   left: 22px;
   z-index: -1;
 }
-.work-history-img{
+.work-history-img {
   text-align: center;
   position: relative;
-  
 }
-.work-history-con{
+.work-history-con {
   margin-left: 105px;
+}
+.plans-title {
+  text-align: center;
+  font-size: 40px;
+  color: #151414;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.plans-logo img {
+  width: 92.958px;
+  height: 92.958px;
+}
+.my-plans {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.plans-container {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+h5 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  color: #151414;
+}
+.plan-desk {
+  color: #737272;
+  font-size: 25px;
+  font-weight: 500;
+}
+.positive-mindset-container {
+  background-image: url(../images/watch.png),
+    linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 60%);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 300px;
+  margin: auto;
+}
+.positive-title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  width: 459px;
+}
+.positive-btn {
+  width: 160px;
+  height: 64px;
+  background: #fff;
+  color: #f15b22;
+  text-align: center;
+}
+.positive-content{
+  padding: 64px;
 }
