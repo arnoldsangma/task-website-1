@@ -136,6 +136,59 @@ h5 {
   color: #f15b22;
   text-align: center;
 }
-.positive-content{
+.positive-content {
   padding: 64px;
+}
+.footer-title {
+  color: #f8f8f8;
+  font-size: 45px;
+  font-weight: 700;
+}
+.footer-desc {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+.email-foot {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+.phone-foot {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+}
+.bg {
+  display: inline;
+  margin-right: 5px;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 130px 130px;
+}
+.footer-container {
+  background-color: #151414;
+  margin-top: 130px;
+}
+.form-title {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+.footer-btn {
+  width: 170px;
+  height: 64px;
+  background: #fff;
+  color: #F15B22;
+  font-size: 20px;
+  font-weight: 600;
+}
+.box-form {
+  width: 325px;
+  height: 64px;
+  margin-bottom: 10px;
+  border: 1px solid #fff;
 }
